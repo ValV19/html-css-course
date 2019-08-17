@@ -1,0 +1,95 @@
+.wrapper {
+    width: 1060px;
+    margin: 0 auto;
+    border-left: 1px solid #d4d2d2;
+    border-right: 1px solid #d4d2d2;
+    padding: 50px 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.logo {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.menu {
+    background: #545454;
+    overflow: auto;
+}
+
+.menu li {
+    float: left;
+    overflow: auto;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.menu a {
+color: #fff;
+text-decoration: none;
+padding: 0 20px;
+}
+
+.main {
+    overflow: auto;
+}
+
+.nav-menu {
+float: left;
+width: 240px;
+margin-top: 40px;
+line-height: 40px;
+
+}
+
+.nav-menu li {
+border: 1px solid #d4d2d2;  
+padding: 0 24px; 
+}
+
+.nav-menu a {
+text-decoration: none;   
+color: rgb(39, 38, 38); 
+}
+
+.bike-block {
+    float: right;
+    margin: 40px 0px 0px 0px;
+    width: 700px;
+}
+
+.bike {
+    display: block;
+    align-self: auto;
+    border: 1px solid #d4d2d2;
+    padding: 50px 99px;
+}
+
+p {
+    margin: 40px;
+    color: rgb(39, 38, 38);
+    
+}
+
+.footer {
+background: #e1e1e1;
+overflow: auto;  
+}
+
+.footer li {
+    float: left;
+    overflow: auto;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: rgb(39, 38, 38);
+}
+
+span {
+float: right; 
+}
