@@ -1,0 +1,115 @@
+body {
+    background: url(../img/bg.jpg);
+    // background-repeat: repeat-y;
+    // width: 960px;
+    margin: o auto;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 847px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 auto;
+    border: 1px solid yellow;
+}
+
+
+.header {
+   
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Palm {
+    position: absolute;
+    left: 154px;
+    top: 59px;
+}
+
+
+.text {
+    height: 67px;
+    width: 822px;
+    margin-top: 135px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 263px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 263px;
+    height: 37px;
+}
+
+.logo p {
+    font-size: 11px;
+}
+
+
+.contacts {
+    display: flex;
+    width: 111px;
+    line-height: 0px;
+    justify-content: flex-start;
+    font-size: 10px;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.countries {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 51px;
+}
+
+.row {
+   padding: 0 23px;
+}
+
+.countries span {
+    line-height: 13px;
+    font-size: 15px;
+}
+
+.countries img {
+    width: 270px;
+    height: 187px;
+}
+
+.sign-in {
+    margin-top: 20px;
+}
+
+.sign-in span {
+    font-weight: 800;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    // flex-direction: column;
+    margin: 50px 0 20px;
+}
+
+.footer span {
+    font-size: 10px;
+}
+
