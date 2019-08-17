@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homework-6-forms</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!-- подключила шрифт - есть ссылка на главной -->
+
+</head>
+<body>
+    <div class="wrapper">
+        <!-- header -->
+        <div class="header">
+            <div class="text">
+                <span class="bold">Contact Manager</span>
+                <span>More Action <i class="fas fa-caret-down"></i></span> <!--<i class="fas fa-caret-down"> - скопировала символ на страничке awesome.com  -->
+            </div>
+        </div>
+        <form action="#" method="GET" target="_blank"></form>
+            <div class="quotions">
+                <!-- side-left -->
+                <div class="left">
+                    <div class="raw-one">
+                        <p @after>First Name</p>
+                        <input type="text" name="First Name" value="" size=25>
+                    </div>
+                    <div class="raw-one">
+                        <p @after>Last Name</p>
+                        <input type="text" name="Last Name" value="" size=25>
+                    </div>
+                    <div class="raw-two">
+                        Adress
+                        <textarea cols="30" rows="10" name="textarea"></textarea>
+                    </div>
+                    <div class="raw-one">
+                        City
+                        <input type="text" name="City" value="" size=25>
+                    </div>
+                    <div class="list">
+                        State
+                        <select name="select">
+                            <option value="st1" selected="selected">Ukraine</option>
+                            <option value="st2">USA</option>
+                            <option value="st3">Germany</option>
+                            <option value="st4">France</option>
+                            <option value="st5">Poland</option>
+                        </select>
+                    </div>
+                    <div class="raw-one">
+                        Zip
+                        <input type="text" name="Zip" value="" size=25>
+                    </div>
+                    <div class="raw-one">
+                        Home phone
+                        <input type="text" name="Home phone" value="" size=25>
+                    </div>
+                    <div class="raw-one">
+                        <p @after>Work phone</p>
+                        <input type="text" name="Work phone" value="" size=25>
+                    </div>
+                    <div class="raw-one">
+                        Fax number
+                        <input type="text" name="Fax number" value="" size=25>
+                    </div>
+                    <div class="raw-one">
+                        Web site
+                        <div class="website">
+                            <span class="raw-one">URL  
+                            <input type="text" name="URL" value=""></span>
+                            <span class="raw-one">Link Name
+                            <input type="text" name="Link Name" value=""></span>
+                        </div>
+                    </div>
+                    <div class="raw-one">
+                        <p @after>Email Adress</p>
+                        <input type="text" name="Email Adress" value="" size=25>
+                    </div>
+                </div>
+                <!-- side-right -->
+                <div class="right">
+                    <!-- checkbox -->
+                    <div class="raw-one">
+                        What is the best time to contact you?
+                        <div class="check-radio">
+                            <div class="box">
+                                <input type="checkbox" name="Morning" value="Morning">
+                                Morning
+                            </div>
+                            <div class="box">
+                                <input type="checkbox" name="Afternoon" value="Afternoon">
+                                Afternoon
+                            </div>
+                            <div class="box">
+                                <input type="checkbox" name="Evening" value="Evening">
+                                Evening
+                            </div>
+                       </div>
+                    </div>
+                    <!-- radio -->
+                    <div class="raw-one">
+                        What is the best way to contact you?
+                        <div class="check-radio">
+                            <div class="box">
+                                <input type="radio" name="way" value="Phone">
+                                Phone
+                            </div>
+                            <div class="box">
+                                <input type="radio" name="way" value="Email">
+                                Email
+                            </div>
+                            <div class="box">
+                                <input type="radio" name="way" value="Fax">
+                                Fax
+                            </div>
+                        </div>
+                    </div>
+                    <div class="raw-two">
+                            Message
+                            <textarea cols="35" rows="15" name="textarea" style="resize: none;"></textarea>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- footer -->
+        <div class="footer">
+            <div class="botton">
+                <input type="submit" name="submit" value="Submit">
+                <input type="reset" name="reset" value="Reset">
+           </div>
+        </div>
+    </div>
+</body>
+</html>
