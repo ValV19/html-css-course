@@ -1,0 +1,494 @@
+@media (max-width: 960px) {
+    /* ------------ header -------------- */    
+    .wrapper {
+        width: 728px;
+    }
+
+    .header-menu {
+        flex-direction: column;
+        padding-bottom: 55px;
+        align-items: flex-start;
+    }
+    
+    .logo {
+        margin-bottom: 35px;
+    }
+   
+    /* ------------ slider -------------- */
+    .slider {
+        padding-left: 20px;
+        padding-bottom: 270px;
+    }
+
+    .slider p {
+        font-size: 16px;
+        width: 270px;
+    }
+
+    .str-one {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .str-two {
+        font-size: 24px;
+        line-height: 24px;;
+    }
+
+    .slider img {
+       right: 17px;
+    }
+
+    .navigation {
+        right: 124px;
+        bottom: 100px;
+    }
+
+    .slide .arrow-right,
+    .slide .arrow-left {
+        width: 20px;
+        height: 32px;
+    }
+   
+    /* -------- purple-gradient-------- */
+    .about {
+        width: 225px;
+        padding-left: 11px;
+        padding-top: 75px;
+    }
+
+    .COMPANY {
+        padding-left: 11px;
+        padding-right: 7px;
+    }
+
+    .READ-MORE {
+        padding-left: 120px;
+    }
+
+    .about p {
+        padding-left: 8px;
+        height: 120px;
+        width: 180px;
+        overflow: hidden;
+    }
+       
+    /* ---------start here---------- */
+    .start-left {
+        width: 340px;
+    }
+
+    .start-right {
+        width: 340px;
+    }
+
+    .bubble {
+        width: 310px;
+    }
+
+    .bubble-front {
+        width: 310px;
+    }
+    
+    .ping {
+        font-size: 24px;
+    }
+
+    .here {
+        font-size: 24px;
+    }
+
+    .start-left p {
+        height: 130;
+        width: 250px;
+    }
+      
+    .start-right p {
+        width: 315px;
+        height: 20px;
+    }  
+    
+    .READ-HERE {
+        padding-left: 200px;
+    }
+
+    .bubble:before {
+        border-top: 25px solid transparent;
+    }
+    
+    // ****** start-center *********
+
+    /* --------- start-down ------- */
+    .categories {
+        width: 210px;
+    }
+   
+    /****** start-down  ******/
+
+    /* ---- footer ----- */
+    .footer-in {
+        width: 490px;
+    }
+}
+
+// ***************** 768px *************
+@media (max-width:768px) {
+    .header {
+        background: url(../img/background4802.jpg);
+    }
+
+    .wrapper {
+        width: 440px;
+    }
+    .header-menu {
+        padding-bottom: 20px;
+        align-items: center;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+    .menu li:not(:first-child) {
+        display: none ;
+    }
+/* ------------slider-------------- */
+    .slider {
+        padding-left: 20px;
+        padding-bottom: 195px;
+    }
+
+    .slider p {
+        display: none;
+    }
+    .str-one {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .str-two {
+        font-size: 18px;
+        line-height: 18px;;
+    }
+
+    .slider img {
+        width: 190px;
+        height: 304px;
+        right: 10px;
+    }
+
+    .navigation {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 60px
+    }
+
+    .slide .arrow-right,
+    .slide .arrow-left {
+        width: 18px;
+        height: 28px;
+    }
+
+    .slide .arrow-left {
+        left: -9px;
+    }
+
+    .slide .arrow-right {
+        right: -28px;
+    }
+
+    /* --------purple-gradient-------- */
+    .purple-gradient {
+        height: 596px;
+    }  
+
+    .purple {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+    
+    .about {
+        display: flex;
+        width: 430px;
+        height: 150px;
+        justify-content: space-between;
+        padding-top: 25px;
+    }
+
+    .READ-MORE {
+        padding-left: 310px;
+        padding-top: 15px;
+    }
+        
+    .COMPANY {
+       padding-left: 11px;
+    }
+
+    .about p {
+        height: 68px;
+        width: 370px;
+        overflow: hidden;
+    }
+
+    /* ---------start here---------- */
+    .start-here {
+        height: 785px;
+        flex-direction: column;
+    }
+    
+    .start-left {
+        width: 435px;
+        padding-top: 100px; 
+    }
+
+    .start-right {
+        width: 435px;
+        padding-top: 50px; 
+    }
+
+    .bubble {
+        width: 400px;
+        height: 230px;
+        top: 70px;
+    }
+
+    .bubble:before {
+        top: 260px;
+        border-top: 25px solid transparent;
+    }
+
+    .start-left p {
+        width: 350px;
+    }
+      
+    .start-right p {
+        width: 350px;
+        height: 30px;
+    }  
+
+    .recent {
+        width: 410px;
+        overflow: hidden;
+    }
+ 
+    .READ-HERE {
+        padding-left: 270px;
+    }
+
+    // ******start-center*********
+
+    .start-center {
+        height: 272px;
+        margin-top: 80px;
+    }
+
+    .logoss {
+        height: 272px;
+        width: 410px;
+        flex-wrap: wrap;
+    }
+
+    .logoss img {
+        padding: 0 25px;
+    }
+
+    // ******* start-down *****
+    .start-down {
+        flex-direction: column;
+        height: 668px;
+    }
+
+    .categories {
+        width: 440px;
+        margin-top: 30px;
+    }
+
+    .categories p{
+        overflow: hidden;
+        height: 90px;
+    }
+
+    /* ----footer----- */
+    .footer {
+        height: 120px;
+        align-items: center;
+    }
+
+    .footer-out {
+        flex-direction: column;
+        height: 120px;
+        justify-content: space-around;
+    }
+
+    .footer-in {
+        width: 440px;
+    }
+}
+
+// *************** 480px **************/
+
+@media (max-width:480px) {
+    .header {
+        background: url(../img/background320.jpg);
+    }
+
+    .wrapper {
+        width: 280px;
+    }
+    .header-menu {
+        padding-bottom: 125px;
+        align-items: center;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+    .menu li:not(:first-child) {
+        display: none;
+    }
+
+    /* ------------slider-------------- */
+    .slider {
+        padding-top: 0;
+        padding-bottom: 165px;
+        text-align: center;
+    }
+
+    .slider p {
+        display: none;
+    }
+    
+    .str-one {
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .str-two {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .iphon {
+        display: none;
+    }
+
+    .navigation {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 68px
+    }
+
+    .slide .arrow-right,
+    .slide .arrow-left {
+        width: 16px;
+        height: 26px;
+    }
+
+    .slide .arrow-right {
+        right: -25px;
+    }
+
+    /* --------purple-gradient-------- */
+    .purple-gradient {
+        height: 596px;
+    }
+    
+    .purple {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+
+    .COMPANY {
+       padding-left: 11px;
+    }
+    
+    .about {
+        display: flex;
+        width: 265px;
+        height: 155px;
+        padding-right: 5px;
+        justify-content: space-between;
+        padding-top: 25px;
+    }
+
+    .READ-MORE {
+        padding-left: 175px;
+        padding-right: 5px;
+    }
+
+    .about p {
+        height: 68px;
+        width: 200px;
+        overflow: hidden;
+    }
+
+    /* ---------start here---------- */
+    .start-left {
+        width: 275px;
+    }
+
+    .start-right {
+        width: 275px;
+    }
+
+    .bubble {
+        width: 245px;
+        height: 220px;
+        top: 70px;
+    }
+
+    .bubble:before {
+        top: 255px;
+    }
+
+    .bubble-front {
+        width: 245px;
+    }
+
+    .start-left p {
+        height: 145px;
+        width: 210px;
+    }
+
+    .nunc {
+        overflow: hidden;
+        width: 150px;
+        height: 30px;
+    } 
+
+    .recent {
+        width: 260px;
+        overflow: hidden;
+    }
+
+    .READ-HERE {
+        padding-left: 140px;
+    }
+    
+     // ******start-center*********
+    .logoss img {
+        padding: 0 20px;
+    }
+
+    .start-down {
+        display: none;
+    }
+
+    .footer-out {
+        height: 120px;
+        justify-content: center;
+    }
+
+    .footer-in {
+        display: none;
+    }
+}
+
