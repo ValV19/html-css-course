@@ -1,0 +1,57 @@
+h1{
+    color: #b90ac9; 
+    }
+
+h2{
+    color: blue;
+}
+
+h3{
+    color: rgb(180, 15, 78);
+    font-size: 14pt;
+ }
+
+h4{
+    color: rgb(235, 66, 212);
+    font-weight: 300;  
+    font-size: 12pt; 
+    font-style: italic;
+    font-family: 'Rubik', sans-serif; 
+}
+
+body{
+    background-image: url("../img/fon3.jpg");
+    background-repeat: repeat-y;
+    background-size: 80%;
+    background-position: center;
+}
+
+img{
+   width: 200px;
+  border: #b90ac9;   
+  }
+
+hr{
+    color: #c90abf;
+    size: 5px;
+    width: 1000px;
+    align-content: center;
+}
+
+ul{
+    padding-left: 600px;
+    color: rgb(15, 75, 3);
+    font-size: 14pt; 
+    font-style: italic;
+    }
+
+p{
+    align-content: center;
+}
+
+ol{
+    padding-left: 200px;
+    color: rgb(7, 163, 54);
+    font-size: 15pt; 
+    font-style: normal;    
+}
